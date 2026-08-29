@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Net.NetworkInformation;
+using System.Runtime.Intrinsics.X86;
+using System.Text;
 
 namespace ass2
 {
@@ -23,6 +25,18 @@ namespace ass2
             string s01 = "clean code";
             string s02 = "clean code";
             Console.WriteLine(ReferenceEquals(s01, s02)); 
+            */
+            #endregion
+            #region Q3,Q4
+            //Create a StringBuilder, Append() the text "Book List", then Append() " - Updated" onto the same object.Print the final result.
+            //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library".Print the result.
+            /*
+            StringBuilder s01 = new StringBuilder();
+            s01.Append("booklist");
+            s01.Append("-updated");
+            Console.Write(s01);
+            s01.Replace("booklist", "library");
+            Console.Write(s01);
             */
             #endregion
         }

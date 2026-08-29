@@ -81,6 +81,11 @@ namespace ass2
             //    default:Console.WriteLine("never heard of it");break;            
             //}
             #endregion
+            #region Q11
+            //Given int pages = 464;, use the ternary operator to store "Long Book" or "Short Book" into a variable sizeLabel (same rule as question 8: long if pages > 300). 
+            //int pages = 464;
+            //Console.WriteLine(pages > 300 ? "large book" : "short book");
+            #endregion
         }
     }
 }

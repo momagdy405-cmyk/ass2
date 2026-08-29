@@ -118,6 +118,16 @@ namespace ass2
 
             //}
             #endregion
+            #region Q14
+            //Write a do-while loop that prints "Checking book..." exactly 3 times.
+
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine("checkingbooks");
+            //    i += 1;
+            //} while (i < 3);
+            #endregion
         }
     }
 }

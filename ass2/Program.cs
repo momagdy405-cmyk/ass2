@@ -71,6 +71,16 @@ namespace ass2
             //    Console.WriteLine("you can borrow this book");
             //}
             #endregion
+            #region q10
+            //Given string title = "Refactoring";, write a switch statement that prints "Great choice!" if the title is "Clean Code", "Nice pick!" if it's "Refactoring", and "Never heard of it" for anything else.
+            //string title = "refactoring";
+            //switch (title)
+            //{
+            //    case "clean code": Console.WriteLine("great job");break;
+            //    case "refactoring": Console.WriteLine("nice pick"); break;
+            //    default:Console.WriteLine("never heard of it");break;            
+            //}
+            #endregion
         }
     }
 }

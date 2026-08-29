@@ -2,9 +2,23 @@
 using System.Net.NetworkInformation;
 using System.Runtime.Intrinsics.X86;
 using System.Text;
+using static System.Net.WebRequestMethods;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ass2
 {
+    #region Q12,Q13
+    //static void printfirstbook(string[]books)
+    //{
+
+    //    if (books == null)
+    //    {
+    //        return;
+    //    }
+    //    Console.WriteLine(books[0]);
+    //}
+    #endregion
+
     internal class Program
     {
 
@@ -85,6 +99,24 @@ namespace ass2
             //Given int pages = 464;, use the ternary operator to store "Long Book" or "Short Book" into a variable sizeLabel (same rule as question 8: long if pages > 300). 
             //int pages = 464;
             //Console.WriteLine(pages > 300 ? "large book" : "short book");
+            #endregion
+            #region q12,Q13
+            //Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };, use a for loop to print each book with its position number, like 1. Clean Code.
+            // Using the same books array, use a while loop to print every book title.
+
+            //string[] books = { "clean code", "pragmatic programming", "refactoring" };
+            //printfirstbook(books);
+            ////for(int i = 0; i < books.Length; i++)
+            ////{
+            ////    Console.WriteLine($"{i+1}.{books[i]}");
+            ////}
+            //int i = 0;
+            //while (i < books.Length)
+            //{
+            //    Console.WriteLine($"{i + 1}.{books[i]}");
+            //    i += 1;
+
+            //}
             #endregion
         }
     }

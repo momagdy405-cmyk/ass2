@@ -6,8 +6,8 @@ namespace ass2
 {
     internal class Program
     {
-        
-       
+
+
         static void Main(string[] args)
         {
             #region Q1
@@ -38,6 +38,16 @@ namespace ass2
             s01.Replace("booklist", "library");
             Console.Write(s01);
             */
+            #endregion
+            #region Q5,Q6,Q7
+            //Given string title = "Clean Code"; and int pages = 464;, build the sentence "Book: Clean Code, Pages: 464" using the + operator. 
+            /*
+             //string title = "clean code";
+             //int pages = 464;
+            //Console.Write("Book:"+title+pages);
+            //Console.WriteLine($"Book:{title}{pages}");
+            //Console.WriteLine(string.Format("Book:{0},{1}",title,pages));
+             */
             #endregion
         }
     }

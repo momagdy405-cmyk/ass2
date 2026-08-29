@@ -136,6 +136,24 @@ namespace ass2
             //    Console.WriteLine(book);
             //}
             #endregion
+            #region Q16
+            //Using the same books array, loop through it and print each title, but stop completely (break) once you reach "Refactoring". 
+            /*
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            int i = 0;
+            foreach (string book in books)
+            {
+                Console.WriteLine(books[i]);
+                i += 1;
+                if (book == "Refactoring")
+                {
+                    break;
+                }
+            } 
+            */
+            #endregion
+
+          
         }
     }
 }

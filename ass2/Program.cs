@@ -1,4 +1,5 @@
-﻿using System.Net.NetworkInformation;
+﻿using System.ComponentModel;
+using System.Net.NetworkInformation;
 using System.Runtime.Intrinsics.X86;
 using System.Text;
 
@@ -48,6 +49,18 @@ namespace ass2
             //Console.WriteLine($"Book:{title}{pages}");
             //Console.WriteLine(string.Format("Book:{0},{1}",title,pages));
              */
+            #endregion
+            #region Q8
+            //Given int pages = 464;, write an if / else statement that prints "Long Book" if pages is greater than 300, otherwise prints "Short Book".
+            //int pages = 464;
+            //if (pages > 300)
+            //{
+            //    Console.WriteLine("largebook");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("smallbook");
+            //}
             #endregion
         }
     }

@@ -7,7 +7,9 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ass2
 {
-    #region Q12,Q13
+    #region Q18
+    //Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty, use return to exit the method early instead of printing anything.
+
     //static void printfirstbook(string[]books)
     //{
 
@@ -105,7 +107,7 @@ namespace ass2
             // Using the same books array, use a while loop to print every book title.
 
             //string[] books = { "clean code", "pragmatic programming", "refactoring" };
-            //printfirstbook(books);
+          
             ////for(int i = 0; i < books.Length; i++)
             ////{
             ////    Console.WriteLine($"{i+1}.{books[i]}");
@@ -163,8 +165,7 @@ namespace ass2
             //    Console.WriteLine(books[i]);
             //} 
             #endregion
-
-
+            
         }
     }
 }
